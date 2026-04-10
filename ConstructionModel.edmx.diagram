@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="c9f409d6cbbe4f31ace9664485601b82" Name="Diagram1">
+        <EntityTypeShape EntityType="СтройКомпанияModel.construction_stages" Width="1.5" PointX="7.5" PointY="4.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="СтройКомпанияModel.customers" Width="1.5" PointX="3" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="СтройКомпанияModel.employees" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="СтройКомпанияModel.house_types" Width="1.5" PointX="0.75" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="СтройКомпанияModel.materials" Width="1.5" PointX="8.25" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="СтройКомпанияModel.order_materials" Width="1.5" PointX="10.5" PointY="4.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="СтройКомпанияModel.orders" Width="1.5" PointX="5.25" PointY="3.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="СтройКомпанияModel.projects" Width="1.5" PointX="3" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="СтройКомпанияModel.sysdiagrams" Width="1.5" PointX="5.75" PointY="9.625" IsExpanded="true" />
+        <AssociationConnector Association="СтройКомпанияModel.FK__construct__order__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="СтройКомпанияModel.FK__orders__customer__44FF419A" ManuallyRouted="false" />
+        <AssociationConnector Association="СтройКомпанияModel.FK__orders__foreman___46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="СтройКомпанияModel.FK__projects__type_i__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="СтройКомпанияModel.FK__order_mat__mater__5535A963" ManuallyRouted="false" />
+        <AssociationConnector Association="СтройКомпанияModel.FK__order_mat__order__5441852A" ManuallyRouted="false" />
+        <AssociationConnector Association="СтройКомпанияModel.FK__orders__project___45F365D3" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
